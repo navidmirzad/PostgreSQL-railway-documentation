@@ -40,9 +40,8 @@ Access PostgreSQL using:
 3. Connecting to the Database
 📌 Default Connection
 Once PostgreSQL is installed, open PowerShell (Windows) or Terminal (macOS) and connect to the default postgres database:
-- psql -U postgres (If prompted, enter the password set during installation.)
-
-
+- psql -U postgres
+(If prompted, enter the password set during installation.)
 
 4. Connecting to the Hosted Railway PostgreSQL Database
 💻 Connection Command (Windows/macOS)
@@ -64,10 +63,10 @@ I have three different users in my database:
 6. Database Roles & Permissions
 Database has the following roles (users):
 
-Role/Name	Password	Permissions
-admin		admin		Full access
-read_only_dept	readonly	Read-only access to public schema
-emp1		emp1		Employee-level access
+Role/Name	      Password	  Permissions
+admin		         admin		    Full access
+read_only_dept	 readonly	  Read-only access to public schema
+emp1		         emp1		    Employee-level access
 
 5. PostgreSQL Basic Commands
 📌 List all databases
