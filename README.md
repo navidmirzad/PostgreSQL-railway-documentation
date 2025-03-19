@@ -6,6 +6,7 @@ Introduction
 For this project, my initial thought was to use MySQL since I had the most experience with it. However, after evaluating various databases, I decided to use PostgreSQL due to its fine-grained access control and robust security at both row and column levels (db-engines.com, 2025).
 
 Why PostgreSQL?
+<br>
 ✅ Supports strict security down to the row and column level
 ✅ Allows granular access control using roles and privileges
 ✅ Supports custom objects, inheritance, and polymorphism (object-relational DB)
