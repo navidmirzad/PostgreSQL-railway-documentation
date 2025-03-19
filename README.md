@@ -2,7 +2,7 @@
 RLS - Railway.app
 
 📖 Documentation for Integrating with PostgreSQL Database
-1. Introduction
+Introduction
 For this project, my initial thought was to use MySQL since I had the most experience with it. However, after evaluating various databases, I decided to use PostgreSQL due to its fine-grained access control and robust security at both row and column levels (db-engines.com, 2025).
 
 Why PostgreSQL?
