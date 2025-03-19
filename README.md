@@ -1,12 +1,11 @@
-![image](https://github.com/user-attachments/assets/041bf224-7b1c-408b-b9df-95184c692515)# PostgreSQL-railway-documentation
+# PostgreSQL-railway-documentation
 RLS - Railway.app
 
 📖 Documentation for Integrating with PostgreSQL Database
 Introduction
 For this project, my initial thought was to use MySQL since I had the most experience with it. However, after evaluating various databases, I decided to use PostgreSQL due to its fine-grained access control and robust security at both row and column levels (db-engines.com, 2025).
 
-Why PostgreSQL?
-<br>
+# Why PostgreSQL?
 ✅ Supports strict security down to the row and column level
 ✅ Allows granular access control using roles and privileges
 ✅ Supports custom objects, inheritance, and polymorphism (object-relational DB)
