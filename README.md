@@ -13,21 +13,18 @@ For this project, my initial thought was to use MySQL since I had the most exper
 
 🔴 Downside: Unlike MongoDB, which supports a wide variety of programming languages, PostgreSQL primarily focuses on popular and widely-used languages.
 
-Getting Started with PostgreSQL
+# Getting Started with PostgreSQL
 📌 Installation
 # Windows
 Download PostgreSQL from the official site: https://www.postgresql.org/download/
-
 Alternative (via Chocolatey)
 Open PowerShell as Administrator and run:
 - choco install PostgreSQL
-
 Important: If you select A (for installing scripts), an auto-generated password will be set. Copy it for later use.
 
 PostgreSQL by default runs on port: 5432
 
 # macOS
-
 Install PostgreSQL via Homebrew:
 - brew install PostgreSQL
 
@@ -37,13 +34,13 @@ Start PostgreSQL service:
 Access PostgreSQL using:
 - psql postgres
 
-Connecting to the Database
+# Connecting to the Database
 📌 Default Connection
 Once PostgreSQL is installed, open PowerShell (Windows) or Terminal (macOS) and connect to the default postgres database:
 - psql -U postgres
 (If prompted, enter the password set during installation.)
 
-Connecting to the Hosted Railway PostgreSQL Database
+# Connecting to the Hosted Railway PostgreSQL Database
 💻 Connection Command (Windows/macOS)
 To connect to the Railway-hosted PostgreSQL database, use the following commands depending on the role:
 
