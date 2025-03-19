@@ -54,11 +54,11 @@ I have three different users in my database:
 
 # for Windows
 
-- $env:PGPASSWORD="<user>"; psql -h shinkansen.proxy.rlwy.net -U admin -p 10363 -d railway
+- $env:PGPASSWORD="password-for-given-user" psql -h shinkansen.proxy.rlwy.net -U admin -p 10363 -d railway
 
 # for macOS:
 
-- PGPASSWORD="<user>" psql -h shinkansen.proxy.rlwy.net -U admin -p 10363 -d railway
+- PGPASSWORD="password-for-given-user" psql -h shinkansen.proxy.rlwy.net -U admin -p 10363 -d railway
 
 6. Database Roles & Permissions
 Database has the following roles (users):
