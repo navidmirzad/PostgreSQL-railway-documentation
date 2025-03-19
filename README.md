@@ -13,7 +13,7 @@ For this project, my initial thought was to use MySQL since I had the most exper
 
 🔴 Downside: Unlike MongoDB, which supports a wide variety of programming languages, PostgreSQL primarily focuses on popular and widely-used languages.
 
-2. Getting Started with PostgreSQL
+Getting Started with PostgreSQL
 📌 Installation
 # Windows
 Download PostgreSQL from the official site: https://www.postgresql.org/download/
@@ -37,13 +37,13 @@ Start PostgreSQL service:
 Access PostgreSQL using:
 - psql postgres
 
-3. Connecting to the Database
+Connecting to the Database
 📌 Default Connection
 Once PostgreSQL is installed, open PowerShell (Windows) or Terminal (macOS) and connect to the default postgres database:
 - psql -U postgres
 (If prompted, enter the password set during installation.)
 
-4. Connecting to the Hosted Railway PostgreSQL Database
+Connecting to the Hosted Railway PostgreSQL Database
 💻 Connection Command (Windows/macOS)
 To connect to the Railway-hosted PostgreSQL database, use the following commands depending on the role:
 
@@ -60,12 +60,12 @@ I have three different users in my database:
 
 - PGPASSWORD="password-for-given-user" psql -h shinkansen.proxy.rlwy.net -U admin -p 10363 -d railway
 
-6. Database Roles & Permissions
+Database Roles & Permissions
 Database has the following roles (users):
 
 ![image](https://github.com/user-attachments/assets/d9d407c7-27ef-4d76-a477-e5a218c7b0ee)
 
-5. PostgreSQL Basic Commands
+PostgreSQL Basic Commands
 📌 List all databases
 
 - \l
