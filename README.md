@@ -1,4 +1,4 @@
-# PostgreSQL-railway-documentation
+![image](https://github.com/user-attachments/assets/041bf224-7b1c-408b-b9df-95184c692515)# PostgreSQL-railway-documentation
 RLS - Railway.app
 
 📖 Documentation for Integrating with PostgreSQL Database
@@ -63,10 +63,7 @@ I have three different users in my database:
 6. Database Roles & Permissions
 Database has the following roles (users):
 
-Role/Name	      Password	  Permissions
-admin		         admin		    Full access
-read_only_dept	 readonly	  Read-only access to public schema
-emp1		         emp1		    Employee-level access
+![image](https://github.com/user-attachments/assets/d9d407c7-27ef-4d76-a477-e5a218c7b0ee)
 
 5. PostgreSQL Basic Commands
 📌 List all databases
