@@ -87,3 +87,7 @@ PostgreSQL Basic Commands
 
 \d table_name
 
+# Example on queries you can make after connecting to the DB
+- SELECT * FROM department;
+- INSERT INTO departments (department_id, department_name) VALUES (4, 'Finance');
+
