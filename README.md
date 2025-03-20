@@ -51,11 +51,15 @@ I have three different users in my database:
 
 # for Windows
 
-- $env:PGPASSWORD="password-for-given-user" psql -h shinkansen.proxy.rlwy.net -U <user_name> -p 10363 -d railway
+// these two have to be on separate lines
+$env:PGPASSWORD="password-for-given-user"
+psql -h shinkansen.proxy.rlwy.net -U <user_name> -p 10363 -d railway
 
 # for macOS:
 
-- PGPASSWORD="password-for-given-user" psql -h shinkansen.proxy.rlwy.net -U <user_name> -p 10363 -d railway
+// these two lines have to be separate lines
+PGPASSWORD="password-for-given-user" 
+psql -h shinkansen.proxy.rlwy.net -U <user_name> -p 10363 -d railway
 
 Database Roles & Permissions
 Database has the following roles (users):
