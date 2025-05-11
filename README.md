@@ -58,6 +58,8 @@ $env:PGPASSWORD = "admin"
 # Then run the command
 psql -h shinkansen.proxy.rlwy.net -U admin -p 10363 -d railway
 
+# same for the other two
+
 $env:PGPASSWORD = "readonly"
 psql -h shinkansen.proxy.rlwy.net -U read_only_dept -p 10363 -d railway
 
