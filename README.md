@@ -52,7 +52,10 @@ I have three different users in my database:
 # for Windows
 
 Admin:
+# First set the environment variable
 $env:PGPASSWORD = "admin"
+
+# Then run the command
 psql -h shinkansen.proxy.rlwy.net -U admin -p 10363 -d railway
 
 $env:PGPASSWORD = "readonly"
