@@ -51,9 +51,16 @@ I have three different users in my database:
 
 # for Windows
 
-// these two have to be on separate lines
-$env:PGPASSWORD="password-for-given-user"
-psql -h shinkansen.proxy.rlwy.net -U <user_name> -p 10363 -d railway
+Admin:
+$env:PGPASSWORD = "admin"
+psql -h shinkansen.proxy.rlwy.net -U admin -p 10363 -d railway
+
+$env:PGPASSWORD = "readonly"
+psql -h shinkansen.proxy.rlwy.net -U read_only_dept -p 10363 -d railway
+
+$env:PGPASSWORD = "emp1"
+psql -h shinkansen.proxy.rlwy.net -U emp1 -p 10363 -d railway
+
 
 # for macOS:
 
